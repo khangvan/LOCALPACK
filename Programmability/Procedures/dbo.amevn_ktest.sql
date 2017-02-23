@@ -1,0 +1,7 @@
+﻿SET QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[amevn_ktest]
+AS 
+
+SELECT * FROM PACK.dbo.MasterBox mb
+GO
